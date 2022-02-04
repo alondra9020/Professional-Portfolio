@@ -52,7 +52,18 @@ header nav ul li a {
     font-size: 1.6vw;
 }
 /* Hero Style */
-
+.hero {
+    background-image: url("/users/alondrareyes/desktop/DEVELOPER/challenges/professional-portfolio/images/wood-leaves-hero-image.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 140px;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+}
 /* Media Query for Smaller Descktop Screens*/
 
 /* Media Query for Tablet and Smaller */
