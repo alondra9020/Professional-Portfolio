@@ -6,14 +6,14 @@
 
 /* Body Style */
 body {
-    background-color: rgb(236, 236, 236);
+    background-color: whitesmoke;
     color:rgb(45, 45, 48);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Header Style */
 header {
-    background-color: rgb(45, 45, 48);
+    background-color: rgb(43, 43, 63);
     padding:  10px 36px; 
     display: flex;
     flex-wrap: wrap;
@@ -51,12 +51,13 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.6vw;
 }
+
 /* Hero Style */
 .hero {
     background-image: url("/users/alondrareyes/desktop/DEVELOPER/challenges/professional-portfolio/images/wood-leaves-hero-image.jpg");
     background-size: cover;
     background-position: center;
-    padding: 140px;
+    padding: 30px;
     display: flex;
     justify-content: right;
     flex-wrap: wrap;
@@ -64,6 +65,53 @@ header nav ul li a {
     background-attachment: fixed;
     background-position: 80%;
 }
+.hero img {
+    width: 350px;
+    height: 250px;
+    border: 2px transparent rgb(45, 45, 48);
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgb(45, 45, 48);
+}
+.hero h2 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+/* Sections Style */
+
+.sections {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+.section-title {
+    font-size: 25px;;
+    flex-flow: column;
+    margin: 0px 30px 70px 300px; 
+}
+.section-info {
+    flex-wrap: wrap;
+    align-content: flex-end;
+    border-left: 3px solid rgb(45, 45, 48);
+    padding: 30px 80px 30px 30px;
+    margin-right: 300px;
+}
+.main-work-image {
+    width: 700px;
+    height: 300px;
+}
+.flex-project {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-project img {
+    width: 300px;
+    height: 200px;
+}
+
+
+
+
 /* Media Query for Smaller Descktop Screens*/
 
 /* Media Query for Tablet and Smaller */
