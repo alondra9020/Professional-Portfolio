@@ -54,12 +54,12 @@ header nav ul li a {
 
 /* Hero Style */
 .hero {
-    background-image: url("/users/alondrareyes/desktop/DEVELOPER/challenges/professional-portfolio/images/wood-leaves-hero-image.jpg");
+    background-color: gray;
     background-size: cover;
     background-position: center;
     padding: 30px;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
     background-attachment: fixed;
